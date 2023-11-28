@@ -1,0 +1,84 @@
+.corousel-img-size {
+    height: 100vh;
+}
+
+.button{
+ float: inline-end;
+ border-radius: 20px;
+}
+
+.nav1{
+ 
+}
+.headder{
+    background-color: brown;
+}
+.logo{
+    width: 10rem;
+    height: 6rem;
+    
+}
+.headder{
+    background-color: brown;
+}
+.nav-item{
+    word-spacing: 5px;
+   
+  padding-left: 80px;
+   justify-content: space-between;
+}
+
+.main{
+    padding: 5% 0 0 0;
+}
+#midimg{
+   width: 400px;
+   height: 300px;
+   border-radius: 5%;
+   padding: 1% 0 0 0;
+   box-shadow: 0px 1px 10px 10px rgba(249, 249, 249, 0.75);
+-webkit-box-shadow: 0px 1px 10px 10px rgba(253, 253, 253, 0.75);
+-moz-box-shadow: 0px 1px 10px 10px rgba(255, 255, 255, 0.75);
+}
+
+#midimg1{
+    height: 600px;
+    border-radius: 5%;
+    box-shadow: 0px 1px 10px 10px rgba(249, 249, 249, 0.75);
+    -webkit-box-shadow: 0px 1px 10px 10px rgba(253, 253, 253, 0.75);
+    -moz-box-shadow: 0px 1px 10px 10px rgba(255, 255, 255, 0.75);
+
+}
+
+.card {
+    height: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      margin-bottom: 15px;
+      margin-top: 0%;
+    }
+    .button {
+        display: none;
+       
+  
+      }
+      .corousel-img-size {
+          height: 60vh;
+      }
+  }
+  
+
+@media (max-width: 400px) {
+    .corousel-img-size {
+        height: 60vh;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    
+      .corousel-img-size {
+          height: 60vh;
+      }
+  }
