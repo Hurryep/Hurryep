@@ -4,19 +4,20 @@
 
 .button{
  float: inline-end;
- border-radius: 20px;
 }
 
 .nav1{
- 
+    box-shadow: -1px -1px 5px 5px rgba(239,237,237,0.75);
+-webkit-box-shadow: -1px -1px 5px 5px rgba(239,237,237,0.75);
+-moz-box-shadow: -1px -1px 5px 5px rgba(239,237,237,0.75);
 }
 .headder{
     background-color: brown;
 }
 .logo{
-    width: 10rem;
-    height: 6rem;
-    
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
 }
 .headder{
     background-color: brown;
@@ -26,28 +27,6 @@
    
   padding-left: 80px;
    justify-content: space-between;
-}
-
-.main{
-    padding: 5% 0 0 0;
-}
-#midimg{
-   width: 400px;
-   height: 300px;
-   border-radius: 5%;
-   padding: 1% 0 0 0;
-   box-shadow: 0px 1px 10px 10px rgba(249, 249, 249, 0.75);
--webkit-box-shadow: 0px 1px 10px 10px rgba(253, 253, 253, 0.75);
--moz-box-shadow: 0px 1px 10px 10px rgba(255, 255, 255, 0.75);
-}
-
-#midimg1{
-    height: 600px;
-    border-radius: 5%;
-    box-shadow: 0px 1px 10px 10px rgba(249, 249, 249, 0.75);
-    -webkit-box-shadow: 0px 1px 10px 10px rgba(253, 253, 253, 0.75);
-    -moz-box-shadow: 0px 1px 10px 10px rgba(255, 255, 255, 0.75);
-
 }
 
 .card {
